@@ -27,7 +27,7 @@ while True:
         print('Error! X and Y must be digit!')
         x = input('Input X coordinate - ')
         y = input('Input Y coordinate - ')
-    elif int(float(x)) == 0 or int(float(y)) == 0:
+    elif float(x) == 0 or float(y) == 0:
         print('Error! X and Y must be > 0!')
         x = input('Input X coordinate - ')
         y = input('Input Y coordinate - ')
