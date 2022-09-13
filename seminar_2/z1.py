@@ -11,7 +11,7 @@ def sum_digits(number):
         number = abs(float(number))
     for digits in str(number):
         if digits != '.':
-            sum += int(digits) % 10
+            sum += int(digits)
     return int(sum)
 
 number = input('Input float number - ')
